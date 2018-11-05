@@ -32,7 +32,7 @@
 		<div class="site_brand">
 			<div id="ui_library" class="site_logo">
 				<a href="https://www.library.illinois.edu/" title="University Library">
-					<img src="{$baseUrl}/templates/images/ui_lib_white_comp_trans.png" alt="[Block I] ILLINOIS University Library">
+					<img src="{$baseUrl}/lib/pkp/templates/images/ui_lib_white_comp_trans.png" alt="[Block I] ILLINOIS University Library">
 				</a>
 			</div>
 		</div>

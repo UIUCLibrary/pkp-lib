@@ -30,7 +30,13 @@
 		<a href="#pkp_content_footer">{translate key="navigation.skip.footer"}</a>
 	</div>
 	<div class="pkp_structure_page">
-
+		<div class="site_brand">
+			<div id="ui_library" class="site_logo">
+				<a href="https://www.library.illinois.edu/" title="University Library">
+					<img src="{$baseUrl}/lib/pkp/templates/images/ui_lib_white_comp_trans.png" alt="[Block I] ILLINOIS University Library">
+				</a>
+			</div>
+		</div>
 		{* Header *}
 		<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
 			<div class="pkp_head_wrapper">

@@ -29,6 +29,13 @@
 		{rdelim});
 	</script>
 	<div class="pkp_structure_page">
+		<div class="site_brand">
+			<div id="ui_library" class="site_logo">
+				<a href="https://www.library.illinois.edu/" title="University Library">
+					<img src="{$baseUrl}/templates/images/ui_lib_white_comp_trans.png" alt="[Block I] ILLINOIS University Library">
+				</a>
+			</div>
+		</div>
 		<header class="pkp_structure_head" role="banner">
 			<div class="pkp_navigation" id="headerNavigationContainer">
 

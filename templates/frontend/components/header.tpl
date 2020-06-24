@@ -23,6 +23,19 @@
 {if !$pageTitleTranslated}{capture assign="pageTitleTranslated"}{translate key=$pageTitle}{/capture}{/if}
 {include file="frontend/components/headerHead.tpl"}
 <body class="pkp_page_{$requestedPage|escape|default:"index"} pkp_op_{$requestedOp|escape|default:"index"}{if $showingLogo} has_site_logo{/if}" dir="{$currentLocaleLangDir|escape|default:"ltr"}">
+                                        <div class="iopn_header_common">
+                                                <img usemap="#lib-shared-header-wordmark-online__map__small" src="{$baseUrl}/templates/images/structure/library"></img>
+                                                <map name="lib-shared-header-wordmark-online__map__small">
+                                                                <area shape="rect" coords="0,0,15,20" href="https://illinois.edu" alt="Block I">
+                                                                <area shape="rect" coords="25,0,200,20" href="https://www.library.illinois.edu" alt="Illinois Library">
+                                                </map>
+                                                <a id="iopn_mark" href="https://iopn.library.illinois.edu">
+ 
+                                                        <img src="{$baseUrl}/templates/images/structure/iopn">
+                                                </a>
+
+                                        </div>
+
 
 	<div class="pkp_structure_page">
 

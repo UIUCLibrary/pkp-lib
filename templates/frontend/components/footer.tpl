@@ -24,6 +24,15 @@
 		{/if}
 	{/if}
 </div><!-- pkp_structure_content -->
+        <div class="pkp_structure_footer">
+
+                {if $pageFooter}
+                        <div class="pkp_footer_content">
+                                {$pageFooter}
+                        </div>
+                {/if}
+
+        </div>
                         <footer class="footer-library container" role="contentinfo">
                                 <div class="row">
                                                         <div class="column footer-library_right" style="text: white">

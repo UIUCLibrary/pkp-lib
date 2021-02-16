@@ -25,25 +25,58 @@
 	{/if}
 </div><!-- pkp_structure_content -->
 
-<div class="pkp_structure_footer_wrapper" role="contentinfo">
-	<a id="pkp_content_footer"></a>
+<footer class="footer-library container" role="contentinfo">
+                                <div class="row">
+                                                        <div class="column footer-library_right" style="text: white">
+                                                                <p>ABOUT</p>
+                                                                <nav>
+                                                                        <ul>
+                                                                                <li><a href="https://iopn.library.illinois.edu/iopn-mission/">About IOPN</a></li>
+                                                                                <li><a href="https://iopn.library.illinois.edu/advisory-board/">Advisory Board</a></li>
+                                                                                <li><a href="https://iopn.library.illinois.edu/policies/">Policies</a></li>
+                                                                                <li><a href="https://iopn.library.illinois.edu/news/">IOPN News</a></li>
+                                                                                <li><a href="https://iopn.library.illinois.edu/contact/">Contact</a></li>
+                                                                                <li><a href="https://iopn.library.illinois.edu/policies/#accessibility">Accessibility</a></li>
+                                                                        </ul>
+                                                                </nav>
 
-	<div class="pkp_structure_footer">
+                                                        </div>
+                                                        <div class="column footer-library_right">
+                                                                <p>PUBLISHING WITHOUT WALLS</p><p>
+                                                                </p><nav>
+                                                                        <ul>
+                                                                                <li><a href="https://iopn.library.illinois.edu/publishing-without-walls/">About PWW</a></li>
+                                                                                <li><a href="https://iopn.library.illinois.edu/books/pww/catalog">PWW Catalog</a></li>
+                                                                                <li><a href="https://pww.afro.illinois.edu">AFRO-PWW Project</a></li>
 
-		{if $pageFooter}
-			<div class="pkp_footer_content">
-				{$pageFooter}
-			</div>
-		{/if}
+                                                                        </ul>
+                                                                </nav>
 
-		<div class="pkp_brand_footer" role="complementary">
-			<a href="{url page="about" op="aboutThisPublishingSystem"}">
-				<img alt="{translate key="about.aboutThisPublishingSystem"}" src="{$baseUrl}/{$brandImage}">
-			</a>
-		</div>
-	</div>
-</div><!-- pkp_structure_footer_wrapper -->
 
+                                                        </div>
+                                                        <div class="column footer-library_right">
+                                                                <p>WINDSOR &amp; DOWNS</p>
+                                                                <nav>
+                                                                        <ul>
+                                                                                <li><a href="https://iopn.library.illinois.edu/windsor-downs-press/">About Windsor and Downs</a></li>
+                                                                                <li><a href="https://iopn.library.illinois.edu/books/windsor-downs/catalog">Windsor and Downs Catalog</a></li>
+                                                                        </ul>
+                                                                </nav>
+
+
+                                                        </div>
+
+                                                        <div class="column footer-library_right">
+                                                                <p>IOPN JOURNALS</p>
+                                                                <nav>
+                                                                        <ul>
+                                                                                <li><a href="https://iopn.library.illinois.edu/iopn-journals/">About IOPN Journals</a></li>
+                                                                                <li><a href="https://iopn.library.illinois.edu/journals/">IOPN Journals Catalog</a></li>
+                                                                        </ul>
+                                                                </nav>
+                                                        </div>
+                                </div>
+                        </footer>
 </div><!-- pkp_structure_page -->
 
 {load_script context="frontend"}

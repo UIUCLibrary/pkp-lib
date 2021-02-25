@@ -30,17 +30,17 @@
 		<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
 			{* Skip to content nav links *}
 			{include file="frontend/components/skipLinks.tpl"}
-                                        <div class="iopn_header_common iopn_header_omp">
-                                                <img usemap="#lib-shared-header-wordmark-online__map__small" src="https://iopn.library.illinois.edu/books/templates/images/structure/library">
+                             <div class="ugrj_header">
+                                        <img usemap="#lib-shared-header-wordmark-online__map__small" src="https://ojs.library.illinois.edu/templates/images/structure/ui_lib_white_comp_trans.png">
                                                 <map name="lib-shared-header-wordmark-online__map__small">
-                                                                <area shape="rect" coords="0,0,15,20" href="https://illinois.edu" alt="Block I">
-                                                                <area shape="rect" coords="25,0,200,20" href="https://www.library.illinois.edu" alt="Illinois Library">
+                                                        <area shape="rect" coords="0,0,15,20" href="https://illinois.edu" alt="Block I">
+                                                        <area shape="rect" coords="25,0,200,20" href="https://www.library.illinois.edu" alt="Illinois Library">
                                                 </map>
-                                                <a id="iopn_mark" href="https://iopn.library.illinois.edu">
- 
-                                                        <img src="https://iopn.library.illinois.edu/books/templates/images/structure/iopn" alt="Illinois Open Publishing Network">
-                                                </a>
-                                        </div>
+        <a class="submit" href="{$baseUrl}">
+                                        URJ @ Illinois
+                                </a>
+
+                            </div>
 			<div class="pkp_head_wrapper">
 
 				<div class="pkp_site_name_wrapper">

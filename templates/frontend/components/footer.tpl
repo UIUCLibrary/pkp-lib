@@ -26,22 +26,56 @@
 </div><!-- pkp_structure_content -->
 
 <div class="pkp_structure_footer_wrapper" role="contentinfo">
-	<a id="pkp_content_footer"></a>
-
-	<div class="pkp_structure_footer">
-
-		{if $pageFooter}
-			<div class="pkp_footer_content">
-				{$pageFooter}
+	<footer class="footer-library container immersion_footer" id="immersions_content_footer">
+		<div class="row">
+			<div class="column footer-library_left" >
+				<div>Main Library Information Desk</div>
+				<div>(217) 333 -2290</div>
+				<div>1408 W. Gregory Dr.</div>
+				<div>Urbana, IL 61801</div>
 			</div>
-		{/if}
+			<div class="column ">
+				<div class="footer-library_i-mark">
+					<img id="i-mark" usemap="#lib-shared-footer-wordmark-online__map__small" src="{$baseUrl}/templates/images/structure/009_LIBRA_OrangeI_Vert_RGB.png" alt="University of Illinois Library">
 
-		<div class="pkp_brand_footer">
-			<a href="{url page="about" op="aboutThisPublishingSystem"}">
-				<img alt="{translate key="about.aboutThisPublishingSystem"}" src="{$baseUrl}/{$brandImage}">
-			</a>
-		</div>
-	</div>
+					<map name="lib-shared-footer-wordmark-online__map__small">
+						<area shape="rect" coords="0,0,200,40" href="https://illinois.edu" alt="Block I">
+						<area shape="rect" coords="0,50,300,100" href="https://www.library.illinois.edu" alt="Illinois Library">
+					</map>
+
+
+				</div>
+				<div class="footer-library_copyright text-center" role="img" aria-label="Creative Commons License: BY NC 4.0">
+					<img id="cc_image" src="{$baseUrl}/templates/images/structure/cc-icons-svg/cc.svg">
+					<img id="by_image" src="{$baseUrl}/templates/images/structure/cc-icons-svg/by.svg">
+					<img id="nc_image" src="{$baseUrl}/templates/images/structure/cc-icons-svg/nc.svg">
+				</div>
+
+			</div>
+
+			<div class="column footer-library_right">
+				<div>
+					<ul>
+						<li>
+							<a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Policy</a>
+						</li>
+						<li>
+							<a href="https://guides.library.illinois.edu/usersdisabilities">Accessibility</a>
+
+						</li>
+						<li>
+							<a href="https://www.library.illinois.edu/sc/">Scholarly Commons</a>
+						</li>
+						<li>
+							<a href="https://www.library.illinois.edu/staff/">Library Staff Website</a>
+
+						</li>
+
+					</ul>
+				</div>
+
+			</div>
+	</footer>
 </div><!-- pkp_structure_footer_wrapper -->
 
 </div><!-- pkp_structure_page -->
@@ -49,5 +83,6 @@
 {load_script context="frontend"}
 
 {call_hook name="Templates::Common::Footer::PageFooter"}
+
 </body>
 </html>

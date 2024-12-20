@@ -17,6 +17,7 @@
 			| {$currentContext->getLocalizedName()}
 		{/if}
 	</title>
+        <link rel="icon" href="{$baseUrl}/iopnfavicon-32x32.png">
 
 	{load_header context="frontend"}
 	{load_stylesheet context="frontend"}

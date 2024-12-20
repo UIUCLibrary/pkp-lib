@@ -30,7 +30,17 @@
 		<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
 			{* Skip to content nav links *}
 			{include file="frontend/components/skipLinks.tpl"}
+			<div class="iopn_header_common iopn_header_omp">
+				<img usemap="#lib-shared-header-wordmark-online__map__small" src="{$baseUrl}/templates/images/structure/library"></img>
+				<map name="lib-shared-header-wordmark-online__map__small">
+					<area shape="rect" coords="0,0,15,20" href="https://illinois.edu" alt="Block I">
+					<area shape="rect" coords="25,0,200,20" href="https://www.library.illinois.edu" alt="Illinois Library">
+				</map>
+				<a id="iopn_mark" href="https://iopn.library.illinois.edu">
 
+					<img src="{$baseUrl}/templates/images/structure/iopn" alt="Illinois Open Publishing Network">
+				</a>
+			</div>
 			<div class="pkp_head_wrapper">
 
 				<div class="pkp_site_name_wrapper">
